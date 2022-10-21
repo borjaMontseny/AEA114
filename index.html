@@ -217,9 +217,10 @@
     <h1 id="contacte">Contacte</h1>
     <form action="/action_page.php">
         <label>Correu electrònic:</label><br>
-        <input type="email" id="fname" name="fname" value="exemple@exemple.com"><br>
+        <input type="email" id="fname" name="fname" value="exemple@exemple.com"><br><br>
         <label>Sugerència:</label><br>
         <textarea id="sugerencia" name="sugerencia" rows="4" cols="50">Escriu aquí el teu comentari</textarea>
+        <br>
         <br>
         <label>Valoració:</label>
         <select name="cars" id="cars">
@@ -228,6 +229,23 @@
             <option value="moltbe">Molt bé</option>
             <option value="excelent">Excel·lent</option>
         </select>
+        <br>
+        <br>
+        <p>T'agrada la música Hip Hop?</p>
+          <input type="radio" id="si" name="musicaSi" value="Si">
+          <label for="html">Si</label><br>
+          <input type="radio" id="no" name="fav_languageNo" value="No">
+          <label for="css">No</label><br>
+        <br>
+        <label>Altres gèneres que t'interessin?</label>
+        <br>
+        <input type="checkbox" id="op1" name="op1" value="Rap">
+        <label> Rap</label><br>
+        <input type="checkbox" id="op2" name="op2" value="Electrònica">
+        <label> Electrònica</label><br>
+        <input type="checkbox" id="op3" name="op3" value="Metal">
+        <label> Metal</label><br><br>
+        <br>
         <input type="submit" value="Enviar">
     </form>
     <br>
